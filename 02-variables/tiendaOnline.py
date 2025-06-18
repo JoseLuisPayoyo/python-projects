@@ -1,0 +1,10 @@
+nombre_producto = input("Nombre producto: ")
+precio = input("Precio: ")
+cantidad = input("Cantidad: ")
+disponible = input("Disponible: ")
+
+print("\n*** Sistema de Reserva de Hoteles***")
+print("Producto:", nombre_producto)
+print("Precio: $" + precio)
+print("Cantidad:", cantidad)
+print("Disponible:", disponible)
