@@ -1,0 +1,10 @@
+nombre_cliente = input("Nombre cliente: ")
+dias_estancia = input("Dia estancia: ")
+tarifa_diaria = input("Tarifa diaria: ")
+has_vistas = input("Tiene vistas al mar?: ")
+
+print("\n*** Sistema de Reserva de Hoteles***")
+print("Cliente:", nombre_cliente)
+print("Dias estancia:", dias_estancia)
+print("Tarifa diaria:", tarifa_diaria)
+print("Tiene vistas al mar:", has_vistas)
