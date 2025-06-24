@@ -7,7 +7,7 @@ cantidad_gastada = float(input("Cual es el importe de tu cuenta: "))
 isMiembro = input("Eres miembro de la tienda (si/no): ")
 descuento = 0.0;
 
-if isMiembro == "si":
+if isMiembro.strip().lower() == "si":
     if cantidad_gastada >= 1000:
         descuento = 0.1
         print("\nFelicidades, has obtenido un descuento del 10%")
